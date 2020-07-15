@@ -6,13 +6,16 @@
 /*   By: nogumbi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 08:30:08 by nogumbi           #+#    #+#             */
-/*   Updated: 2020/07/13 08:35:46 by nogumbi          ###   ########.fr       */
+/*   Updated: 2020/07/15 13:06:34 by nogumbi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int ft_iterative_factorial(int nb)
+int		ft_iterative_factorial(int nb)
 {
-	int factorial = 1;
-	int i = 0;
+	int factorial;
+    factorial	= 1;
+
+	int i;
+	i = 0;
 
 	if(nb == 0)
 	{
