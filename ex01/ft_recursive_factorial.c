@@ -6,11 +6,12 @@
 /*   By: nogumbi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 08:48:43 by nogumbi           #+#    #+#             */
-/*   Updated: 2020/07/13 08:54:44 by nogumbi          ###   ########.fr       */
+/*   Updated: 2020/07/15 13:08:07 by nogumbi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
-int ft_recursive_factorial(int nb)
+int		 ft_recursive_factorial(int nb)
 {
 	if(nb >= 1)
 	{
